@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family:  "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  justify-content: center;
+  background-color: #eeeeee;
+  align-items: center;
+}
+
+.content {
+  min-width: 370px;
+  min-height: 326px;
+  display: flex;
+  padding: 10px 0px 10px 0px;
+  flex-direction: column;
+  background-color: white;
+}
+
+hr {
+  margin: 10px 15px 10px 15px;
+  border: 1px thin black;
+  color: white;
+}
+
+.button-container {
+  width: 370px;
+  margin: auto;
+  min-height: 60px;
+  padding: 10px 15px;
+}
+
+button {
+  border-radius: 4px; 
+  width: 340px; 
+  height: 40px; 
+  border-color:  transparent; 
+  border-width:  0; 
+  font-size: 14px;
+  line-height: 18.2px;
+  font-weight: 400;
+  padding: 10px 20px 10px 20px;
+  color: #1F2128;
+  cursor: pointer;
+}
+
+.button-default, .button-variant3 {
+  background-color: #FFCE22; 
+}
+
+.button-variant2 {
+  background-color: #FFD84D ;
+}
+
+.checkbox {
+  width: 25px;
+  height: 25px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-shadow {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: 1px solid #CDCDCD ;
+}
+
+.checkbox-default, .checkbox-variant2, .checkbox-variant3{
+  background-color: white;
+}
+
+.checkbox-variant5 {
+  background-color: #2469F6;
+}
+
+.checkbox-variant4 {
+  background-color: #5087F8;
+}
+
+.checkbox-icon-variant4, .checkbox-icon-variant5,  .checkbox-icon-default {
+  color: white;
+}
+
+.checkbox-icon-variant2{
+  opacity: 0.3;
+}
+
+.checkbox-icon-variant3 {
+  opacity: 0.6;
+}
+
+.page-item{
+  display: flex;
+  padding: 8px 15px 8px 22px;
+  justify-content: space-between;
+  height: 42px;
+  width: 370px;
+  align-items: center
+}
+
+.page-item span {
+  font-size: 14px;
+}
+

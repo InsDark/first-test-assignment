@@ -23,11 +23,6 @@ const CheckBox = ({ isChecked, pageItemClick }: CheckBoxParams) => {
 
   return (
     <div
-      onMouseEnter={() => {
-        className == "variant5"
-          ? setClassName("variant4")
-          : setClassName("variant2");
-      }}
       onMouseLeave={() =>
         className == "variant4"
           ? setClassName("variant5")
@@ -37,16 +32,16 @@ const CheckBox = ({ isChecked, pageItemClick }: CheckBoxParams) => {
       }
       onMouseDown={() => setClassName("variant3")}
       onClick={pageItemClick}
-      className={`checkbox`}
+      className={`checkbox checkbox-${className}`}
     >
       <div
         style={{ opacity: className == "default" ? 0.6 : 1 }}
-        className={`checkbox-shadow checkbox-${className}`}
+        className={`checkbox-shadow`}
       >
         <FontAwesomeIcon
           icon={faCheck}
           size="lg"
-          className={`checkbox-icon-${className}`}
+          className={`checkbox-icon-${className} icon`}
         />
       </div>
     </div>

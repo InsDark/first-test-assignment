@@ -3,7 +3,7 @@ import PageItem from "./PageItem";
 import PageHeader from "./PageHeader";
 
 const PagesContainer = () => {
-  const titles = ["Page 1", "Page 2", "Page 3", "Page 4", "Page 5"];
+  const titles = ["Page 1", "Page 2", "Page 3", "Page 4"];
   const [pagesChecked, setPagesChecked] = useState<string[]>([]);
 
   const handleClick = () => {

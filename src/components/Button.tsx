@@ -7,7 +7,7 @@ const Button = () => {
   return (
     <div className="button-container">
       <button
-      onClick={() => alert('There was no functionality in the figma for the button so it just shows and alert')}
+      onClick={() => alert('There was no functionality in the figma for the button so it just shows an alert')}
         onMouseEnter={() => setClassName("button-variant2")}
         onMouseLeave={() => setClassName("button-default")}
         onMouseDown={() => setClassName("button-variant3")}

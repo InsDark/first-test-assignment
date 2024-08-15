@@ -65,8 +65,9 @@ button {
   height: 25px;
   border-radius: 6px;
   display: flex;
+  cursor: pointer;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .checkbox-shadow {
@@ -83,8 +84,21 @@ button {
   background-color: white;
 }
 
+.checkbox-default{
+  :hover{
+    .icon{
+      color: black;
+      opacity: 0.3;
+    }
+  }
+}
+
 .checkbox-variant5 {
   background-color: #2469F6;
+  :hover{
+    background-color: #5087F8 ;
+  }
+
 }
 
 .checkbox-variant4 {
@@ -93,10 +107,6 @@ button {
 
 .checkbox-icon-variant4, .checkbox-icon-variant5,  .checkbox-icon-default {
   color: white;
-}
-
-.checkbox-icon-variant2{
-  opacity: 0.3;
 }
 
 .checkbox-icon-variant3 {
